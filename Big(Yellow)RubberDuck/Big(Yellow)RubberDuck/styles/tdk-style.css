@@ -1,0 +1,75 @@
+body{
+    font-family: "Consolas";
+    color: #50026E;
+    margin: 0;
+    background: repeating-linear-gradient(45deg,#9d81ba, #9d81ba 3px, white 3px, white 8px) fixed 1500px;
+}
+
+img.photo{
+    float: right;
+    margin-right: 10%;
+    border: 3px solid #50026E;
+    border-radius: 500px;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none; 
+}
+
+section.projectsTDK, section.aboutTDK, header.HeaderTDK{
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*height: 500px;*/
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+    background: white;
+}
+
+nav.nav-contact, nav.NavTDK{
+    padding-top: 0;
+    background: #50026E;
+    width: 100%;
+    text-align: center;
+    height: 80px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p.text{
+    font-size: large;
+}
+
+nav.NavTDK{
+    height: 50px;
+    position: fixed;
+}
+
+nav.nav-contact{
+    height: 80px;
+}
+
+article{
+    padding: 0;
+}
+
+a.a-href{
+    margin-right: 30px;
+    color: white;
+    font-stretch: extra-expanded;
+    vertical-align: middle;
+    text-decoration: none;
+}
+article{
+    padding-left: 10%;
+    text-align:left;
+}
+
+p.info{
+    color: white;
+    border-bottom: 2px inset white;
+}
