@@ -2,7 +2,7 @@ body{
     font-family: "Consolas";
     color: #50026E;
     margin: 0;
-    background: repeating-linear-gradient(45deg,#9d81ba, #9d81ba 3px, white 3px, white 8px) fixed 1500px;
+    background: repeating-linear-gradient(45deg,#9d81ba, #9d81ba 5px, white 5px, white 20px) fixed 1500px;
 }
 
 img.photo{
